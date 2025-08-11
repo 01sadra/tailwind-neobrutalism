@@ -26,11 +26,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/tailwind-neobrutalism.git"
+    "url": "https://github.com/01sadra/tailwind-neobrutalism.git"
   },
-  "homepage": "https://github.com/your-org/tailwind-neobrutalism#readme",
+  "homepage": "https://01sadra.github.io/tailwind-neobrutalism",
   "bugs": {
-    "url": "https://github.com/your-org/tailwind-neobrutalism/issues"
+    "url": "https://github.com/01sadra/tailwind-neobrutalism/issues"
   },
   "peerDependencies": {
     "tailwindcss": ">=3.3.0"

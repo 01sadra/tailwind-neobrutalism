@@ -435,7 +435,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
-git clone https://github.com/your-org/tailwind-neobrutalism.git
+git clone https://github.com/01sadra/tailwind-neobrutalism.git
 cd tailwind-neobrutalism
 npm install
 
@@ -458,10 +458,10 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## 🔗 Links
 
 - 📦 [NPM Package](https://www.npmjs.com/package/@feedfuse/tailwind-neobrutalism)
-- 🌐 [Live Demo](https://your-org.github.io/tailwind-neobrutalism)
-- 📚 [Documentation](https://your-org.github.io/tailwind-neobrutalism/docs)
-- 🐛 [Issues](https://github.com/your-org/tailwind-neobrutalism/issues)
-- 💬 [Discussions](https://github.com/your-org/tailwind-neobrutalism/discussions)
+- 🌐 [Live Demo](https://01sadra.github.io/tailwind-neobrutalism)
+- 📚 [Documentation](https://01sadra.github.io/tailwind-neobrutalism/docs)
+- 🐛 [Issues](https://github.com/01sadra/tailwind-neobrutalism/issues)
+- 💬 [Discussions](https://github.com/01sadra/tailwind-neobrutalism/discussions)
 
 ---
 
