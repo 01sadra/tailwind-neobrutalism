@@ -18,6 +18,24 @@
 - 📦 **TypeScript** - Full TypeScript definitions included
 - 🚀 **Performance** - Tree-shakeable and optimized bundle size
 
+## 🌐 Live Demo
+
+**[View Live Demo →](https://01sadra.github.io/tailwind-neobrutalism)**
+
+Experience the full power of neobrutalism design with both LTR and RTL layouts:
+
+| Left-to-Right (LTR) | Right-to-Left (RTL) |
+|:---:|:---:|
+| [![LTR Demo](./demo-ltr-screenshot.png)](https://01sadra.github.io/tailwind-neobrutalism) | [![RTL Demo](./demo-rtl-screenshot.png)](https://01sadra.github.io/tailwind-neobrutalism/rtl.html) |
+| **[English Demo](https://01sadra.github.io/tailwind-neobrutalism)** | **[Persian/Farsi Demo](https://01sadra.github.io/tailwind-neobrutalism/rtl.html)** |
+
+The live demo showcases:
+- ✨ All 40+ brutal components in action  
+- 🎨 Interactive examples you can click and explore
+- 🌍 Full RTL/Persian support with proper fonts
+- 📱 Responsive design across all screen sizes
+- 🎯 Real-world usage patterns and layouts
+
 ## 🚀 Quick Start
 
 ### Installation
