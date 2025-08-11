@@ -24,10 +24,15 @@
 
 Experience the full power of neobrutalism design with both LTR and RTL layouts:
 
-| Left-to-Right (LTR) | Right-to-Left (RTL) |
+<div align="center">
+
+### 🎯 [**LIVE DEMO**](https://01sadra.github.io/tailwind-neobrutalism) • [**RTL DEMO**](https://01sadra.github.io/tailwind-neobrutalism/rtl.html)
+
+</div>
+
+| 🌍 Left-to-Right (English) | 🔤 Right-to-Left (Persian) |
 |:---:|:---:|
-| [![LTR Demo](./demo-ltr-screenshot.png)](https://01sadra.github.io/tailwind-neobrutalism) | [![RTL Demo](./demo-rtl-screenshot.png)](https://01sadra.github.io/tailwind-neobrutalism/rtl.html) |
-| **[English Demo](https://01sadra.github.io/tailwind-neobrutalism)** | **[Persian/Farsi Demo](https://01sadra.github.io/tailwind-neobrutalism/rtl.html)** |
+| **[🚀 View LTR Demo](https://01sadra.github.io/tailwind-neobrutalism)**<br>*Full English interface with all components* | **[🚀 View RTL Demo](https://01sadra.github.io/tailwind-neobrutalism/rtl.html)**<br>*Complete Persian interface with RTL layout* |
 
 The live demo showcases:
 - ✨ All 40+ brutal components in action  
