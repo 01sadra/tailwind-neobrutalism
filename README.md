@@ -1,8 +1,8 @@
-# @feedfuse/tailwind-neobrutalism
+# @01sadra/tailwind-neobrutalism
 
 🔥 **A comprehensive Tailwind CSS plugin for neobrutalism design with full RTL/Farsi support**
 
-[![NPM Version](https://img.shields.io/npm/v/@feedfuse/tailwind-neobrutalism.svg)](https://www.npmjs.com/package/@feedfuse/tailwind-neobrutalism)
+[![NPM Version](https://img.shields.io/npm/v/@01sadra/tailwind-neobrutalism.svg)](https://www.npmjs.com/package/@01sadra/tailwind-neobrutalism)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![RTL Support](https://img.shields.io/badge/RTL-Supported-green.svg)](#rtl--farsi-support)
@@ -23,7 +23,7 @@
 ### Installation
 
 ```bash
-npm install @feedfuse/tailwind-neobrutalism
+npm install @01sadra/tailwind-neobrutalism
 ```
 
 ### Basic Setup
@@ -34,7 +34,7 @@ Add the plugin to your `tailwind.config.js`:
 module.exports = {
   content: ["./src/**/*.{html,js,tsx,jsx}"],
   plugins: [
-    require('@feedfuse/tailwind-neobrutalism')()
+    require('@01sadra/tailwind-neobrutalism')()
   ],
 }
 ```
@@ -229,7 +229,7 @@ All components automatically adapt to RTL layout:
 ```javascript
 module.exports = {
   plugins: [
-    require('@feedfuse/tailwind-neobrutalism')({
+    require('@01sadra/tailwind-neobrutalism')({
       colors: {
         brutal: {
           primary: '255 235 59',    // Yellow
@@ -271,7 +271,7 @@ module.exports = {
 
 #### YouTube Theme (Default)
 ```javascript
-require('@feedfuse/tailwind-neobrutalism')({
+require('@01sadra/tailwind-neobrutalism')({
   // Default YouTube-inspired colors
 })
 ```
@@ -280,7 +280,7 @@ require('@feedfuse/tailwind-neobrutalism')({
 
 ```javascript
 // Spotify-inspired
-require('@feedfuse/tailwind-neobrutalism')({
+require('@01sadra/tailwind-neobrutalism')({
   colors: {
     brutal: {
       primary: '30 215 96',     // Spotify Green
@@ -291,7 +291,7 @@ require('@feedfuse/tailwind-neobrutalism')({
 })
 
 // Discord-inspired  
-require('@feedfuse/tailwind-neobrutalism')({
+require('@01sadra/tailwind-neobrutalism')({
   colors: {
     brutal: {
       primary: '88 101 242',    // Blurple
@@ -457,7 +457,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🔗 Links
 
-- 📦 [NPM Package](https://www.npmjs.com/package/@feedfuse/tailwind-neobrutalism)
+- 📦 [NPM Package](https://www.npmjs.com/package/@01sadra/tailwind-neobrutalism)
 - 🌐 [Live Demo](https://01sadra.github.io/tailwind-neobrutalism)
 - 📚 [Documentation](https://01sadra.github.io/tailwind-neobrutalism/docs)
 - 🐛 [Issues](https://github.com/01sadra/tailwind-neobrutalism/issues)

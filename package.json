@@ -1,5 +1,5 @@
 {
-  "name": "@feedfuse/tailwind-neobrutalism",
+  "name": "@01sadra/tailwind-neobrutalism",
   "version": "0.1.0",
   "description": "A comprehensive Tailwind CSS plugin for neobrutalism design with RTL/Farsi support",
   "main": "index.js",
