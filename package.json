@@ -1,0 +1,53 @@
+{
+  "name": "@feedfuse/tailwind-neobrutalism",
+  "version": "0.1.0",
+  "description": "A comprehensive Tailwind CSS plugin for neobrutalism design with RTL/Farsi support",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "index.js",
+    "types/",
+    "fonts/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "neobrutalism",
+    "rtl",
+    "farsi",
+    "persian",
+    "components",
+    "css",
+    "design-system"
+  ],
+  "author": "FeedFuse",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/tailwind-neobrutalism.git"
+  },
+  "homepage": "https://github.com/your-org/tailwind-neobrutalism#readme",
+  "bugs": {
+    "url": "https://github.com/your-org/tailwind-neobrutalism/issues"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  },
+  "scripts": {
+    "demo": "cd demo && npm run build-once",
+    "demo:dev": "cd demo && npm run build",
+    "demo:serve": "cd demo && npm run serve",
+    "test": "npm run demo",
+    "prepublishOnly": "npm run test"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

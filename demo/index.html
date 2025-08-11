@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neobrutalism Plugin Demo - LTR</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <style>
+        body { font-family: var(--font-sans); }
+        .demo-section { margin-bottom: 3rem; }
+        .demo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1rem 0; }
+        .demo-title { font-size: 1.5rem; font-weight: var(--font-heading-weight); margin-bottom: 1rem; color: rgb(var(--color-youtube-black)); }
+    </style>
+</head>
+<body class="bg-youtube-light-gray p-8">
+    <div class="max-w-7xl mx-auto">
+        <!-- Header -->
+        <header class="mb-8 text-center">
+            <h1 class="text-4xl font-brutal-heading mb-4">🔥 Neobrutalism Plugin Demo</h1>
+            <p class="text-lg text-youtube-gray mb-4">Comprehensive showcase of all components with LTR layout</p>
+            <div class="flex justify-center gap-4 mb-6">
+                <a href="rtl.html" class="btn-brutal">View RTL Demo →</a>
+                <a href="https://github.com/your-org/tailwind-neobrutalism" class="btn-brutal-ghost">GitHub ★</a>
+            </div>
+            <nav class="nav-brutal inline-flex">
+                <a href="#buttons" class="nav-brutal-item">Buttons</a>
+                <a href="#forms" class="nav-brutal-item">Forms</a>
+                <a href="#cards" class="nav-brutal-item">Cards</a>
+                <a href="#navigation" class="nav-brutal-item">Navigation</a>
+                <a href="#data" class="nav-brutal-item">Data Display</a>
+            </nav>
+        </header>
+
+        <!-- Buttons Section -->
+        <section id="buttons" class="demo-section">
+            <h2 class="demo-title">🔘 Buttons</h2>
+            <div class="demo-grid">
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Basic Buttons</h3>
+                    <div class="space-y-2">
+                        <button class="btn-brutal">Primary Button</button>
+                        <button class="btn-brutal-ghost">Ghost Button</button>
+                        <button class="btn-brutal-dark">Dark Button</button>
+                        <button class="btn-brutal-primary">Custom Primary</button>
+                        <button class="btn-brutal-secondary">Custom Secondary</button>
+                    </div>
+                </div>
+                
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Button Sizes</h3>
+                    <div class="space-y-2">
+                        <button class="btn-brutal-sm">Small Button</button>
+                        <button class="btn-brutal">Regular Button</button>
+                        <button class="btn-brutal-lg">Large Button</button>
+                        <button class="btn-brutal-xl">Extra Large</button>
+                    </div>
+                </div>
+
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Button States</h3>
+                    <div class="space-y-2">
+                        <button class="btn-brutal">Normal</button>
+                        <button class="btn-brutal" disabled>Disabled</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forms Section -->
+        <section id="forms" class="demo-section">
+            <h2 class="demo-title">📝 Form Elements</h2>
+            <div class="demo-grid">
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Text Inputs</h3>
+                    <div class="space-y-3">
+                        <input type="text" class="input-brutal" placeholder="Regular input">
+                        <input type="text" class="input-brutal-sm" placeholder="Small input">
+                        <input type="text" class="input-brutal-lg" placeholder="Large input">
+                        <textarea class="textarea-brutal" placeholder="Textarea input"></textarea>
+                    </div>
+                </div>
+
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Select & Options</h3>
+                    <div class="space-y-3">
+                        <select class="select-brutal">
+                            <option>Choose option</option>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                        </select>
+                        
+                        <div class="flex items-center gap-2">
+                            <input type="checkbox" class="checkbox-brutal" id="check1">
+                            <label for="check1">Checkbox option</label>
+                        </div>
+                        
+                        <div class="flex items-center gap-2">
+                            <input type="radio" class="radio-brutal" id="radio1" name="radio">
+                            <label for="radio1">Radio option</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Form Example</h3>
+                    <form class="space-y-3">
+                        <input type="email" class="input-brutal" placeholder="your@email.com">
+                        <input type="password" class="input-brutal" placeholder="Password">
+                        <div class="flex items-center gap-2">
+                            <input type="checkbox" class="checkbox-brutal" id="remember">
+                            <label for="remember" class="text-sm">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn-brutal w-full">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards Section -->
+        <section id="cards" class="demo-section">
+            <h2 class="demo-title">🎴 Cards</h2>
+            <div class="demo-grid">
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-2">Basic Card</h3>
+                    <p class="text-youtube-gray">This is a basic card with some content inside.</p>
+                </div>
+
+                <div class="card-brutal-hover">
+                    <h3 class="font-brutal-heading mb-2">Hoverable Card</h3>
+                    <p class="text-youtube-gray">This card has hover effects with shadow animation.</p>
+                </div>
+
+                <div class="card-brutal-dark">
+                    <h3 class="font-brutal-heading mb-2">Dark Card</h3>
+                    <p>Dark themed card with inverted colors.</p>
+                </div>
+
+                <div class="card-brutal-primary">
+                    <h3 class="font-brutal-heading mb-2">Primary Card</h3>
+                    <p>Card with custom primary color background.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation Section -->
+        <section id="navigation" class="demo-section">
+            <h2 class="demo-title">🧭 Navigation Components</h2>
+            <div class="demo-grid">
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Navigation Menu</h3>
+                    <nav class="nav-brutal">
+                        <a href="#" class="nav-brutal-item active">Home</a>
+                        <a href="#" class="nav-brutal-item">About</a>
+                        <a href="#" class="nav-brutal-item">Services</a>
+                        <a href="#" class="nav-brutal-item">Contact</a>
+                    </nav>
+                </div>
+
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Breadcrumbs</h3>
+                    <nav class="breadcrumb-brutal">
+                        <div class="breadcrumb-brutal-item">
+                            <a href="#">Home</a>
+                        </div>
+                        <div class="breadcrumb-brutal-item">
+                            <a href="#">Products</a>
+                        </div>
+                        <div class="breadcrumb-brutal-item">Current Page</div>
+                    </nav>
+                </div>
+
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Tabs</h3>
+                    <div class="tabs-brutal">
+                        <div class="tabs-brutal-nav">
+                            <button class="tabs-brutal-tab active">Tab 1</button>
+                            <button class="tabs-brutal-tab">Tab 2</button>
+                            <button class="tabs-brutal-tab">Tab 3</button>
+                        </div>
+                        <div class="tabs-brutal-content">
+                            <p>Content for the active tab goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Display Section -->
+        <section id="data" class="demo-section">
+            <h2 class="demo-title">📊 Data Display</h2>
+            <div class="demo-grid">
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Badges</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="badge-brutal">Default</span>
+                        <span class="badge-brutal-primary">Primary</span>
+                        <span class="badge-brutal-secondary">Secondary</span>
+                        <span class="badge-brutal-success">Success</span>
+                        <span class="badge-brutal-warning">Warning</span>
+                        <span class="badge-brutal-error">Error</span>
+                    </div>
+                </div>
+
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Progress Bar</h3>
+                    <div class="space-y-3">
+                        <div class="progress-brutal">
+                            <div class="progress-brutal-bar" style="width: 75%"></div>
+                        </div>
+                        <div class="progress-brutal">
+                            <div class="progress-brutal-bar" style="width: 45%"></div>
+                        </div>
+                        <div class="progress-brutal">
+                            <div class="progress-brutal-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Alerts</h3>
+                    <div class="space-y-2">
+                        <div class="alert-brutal-info">
+                            <strong>Info:</strong> This is an information alert.
+                        </div>
+                        <div class="alert-brutal-success">
+                            <strong>Success:</strong> Operation completed successfully.
+                        </div>
+                        <div class="alert-brutal-warning">
+                            <strong>Warning:</strong> Please check your input.
+                        </div>
+                        <div class="alert-brutal-error">
+                            <strong>Error:</strong> Something went wrong.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Table Section -->
+        <section class="demo-section">
+            <h2 class="demo-title">📋 Data Table</h2>
+            <div class="card-brutal p-0 overflow-hidden">
+                <table class="table-brutal">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Laptop</td>
+                            <td>$999</td>
+                            <td>15</td>
+                            <td><span class="badge-brutal-success">In Stock</span></td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>$599</td>
+                            <td>3</td>
+                            <td><span class="badge-brutal-warning">Low Stock</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tablet</td>
+                            <td>$399</td>
+                            <td>0</td>
+                            <td><span class="badge-brutal-error">Out of Stock</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Interactive Components -->
+        <section class="demo-section">
+            <h2 class="demo-title">🎯 Interactive Elements</h2>
+            <div class="demo-grid">
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Dropdown Menu</h3>
+                    <div class="dropdown-brutal">
+                        <button class="btn-brutal dropdown-brutal-trigger">Menu ▼</button>
+                        <div class="dropdown-brutal-content">
+                            <a href="#" class="dropdown-brutal-item">Option 1</a>
+                            <a href="#" class="dropdown-brutal-item">Option 2</a>
+                            <a href="#" class="dropdown-brutal-item">Option 3</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Pagination</h3>
+                    <div class="pagination-brutal">
+                        <button class="pagination-brutal-item" disabled>‹</button>
+                        <button class="pagination-brutal-item active">1</button>
+                        <button class="pagination-brutal-item">2</button>
+                        <button class="pagination-brutal-item">3</button>
+                        <button class="pagination-brutal-item">›</button>
+                    </div>
+                </div>
+
+                <div class="card-brutal">
+                    <h3 class="font-brutal-heading mb-3">Loading States</h3>
+                    <div class="flex items-center gap-4">
+                        <div class="loading-brutal"></div>
+                        <button class="btn-brutal flex items-center gap-2">
+                            <div class="loading-brutal w-4 h-4"></div>
+                            Loading...
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chat Example -->
+        <section class="demo-section">
+            <h2 class="demo-title">💬 Chat Interface</h2>
+            <div class="card-brutal max-w-2xl mx-auto">
+                <div class="space-y-4">
+                    <div class="flex">
+                        <div class="chat-brutal-user">
+                            Hey! How does this neobrutalism plugin work?
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="chat-brutal-agent">
+                            Great question! This plugin provides all the brutal-style components you need with full RTL support. It includes buttons, forms, cards, and much more!
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="chat-brutal-user">
+                            That's awesome! Can I customize the colors?
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="chat-brutal-agent">
+                            Absolutely! You can pass custom colors in the plugin configuration. Check out the documentation for all customization options.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Avatars -->
+        <section class="demo-section">
+            <h2 class="demo-title">👤 Avatars</h2>
+            <div class="card-brutal">
+                <h3 class="font-brutal-heading mb-3">Avatar Sizes</h3>
+                <div class="flex items-end gap-4">
+                    <div class="avatar-brutal-sm bg-brutal-primary"></div>
+                    <div class="avatar-brutal-md bg-brutal-secondary"></div>
+                    <div class="avatar-brutal-lg bg-brutal-accent"></div>
+                    <div class="avatar-brutal-xl bg-brutal-warning"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center mt-16 py-8 border-t-2 border-youtube-black">
+            <p class="text-youtube-gray mb-4">
+                Built with ❤️ using @feedfuse/tailwind-neobrutalism
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="rtl.html" class="btn-brutal-ghost">RTL Demo</a>
+                <a href="https://github.com/your-org/tailwind-neobrutalism" class="btn-brutal-ghost">Documentation</a>
+                <a href="https://npmjs.com/package/@feedfuse/tailwind-neobrutalism" class="btn-brutal-ghost">NPM Package</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Simple demo interactions
+        document.querySelectorAll('.tabs-brutal-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tabs-brutal-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+            });
+        });
+
+        // Dropdown functionality
+        document.querySelectorAll('.dropdown-brutal-trigger').forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const dropdown = trigger.closest('.dropdown-brutal');
+                const isActive = dropdown.classList.contains('active');
+                
+                // Close all other dropdowns
+                document.querySelectorAll('.dropdown-brutal.active').forEach(d => {
+                    d.classList.remove('active');
+                });
+                
+                // Toggle current dropdown
+                if (!isActive) {
+                    dropdown.classList.add('active');
+                }
+            });
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', () => {
+            document.querySelectorAll('.dropdown-brutal.active').forEach(dropdown => {
+                dropdown.classList.remove('active');
+            });
+        });
+
+    </script>
+</body>
+</html>

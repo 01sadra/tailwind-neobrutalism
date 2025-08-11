@@ -1,0 +1,18 @@
+{
+  "name": "neobrutalism-plugin-demo",
+  "version": "1.0.0",
+  "description": "Demo environment for @feedfuse/tailwind-neobrutalism plugin",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build-once": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "serve": "python -m http.server 8080",
+    "dev": "concurrently \"npm run build\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "concurrently": "^8.2.2"
+  }
+}
