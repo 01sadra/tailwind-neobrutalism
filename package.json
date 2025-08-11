@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5"
   },
@@ -45,7 +46,9 @@
     "demo:dev": "cd demo && npm run build",
     "demo:serve": "cd demo && npm run serve",
     "test": "npm run demo",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test",
+    "predeploy": "npm run demo",
+    "deploy": "gh-pages -d demo"
   },
   "engines": {
     "node": ">=14.0.0"
